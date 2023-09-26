@@ -8,6 +8,8 @@ import android.widget.EditText
 import android.widget.TextView
 import org.w3c.dom.Text
 
+// work in progress
+
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId", "WrongViewCast")
     override fun onCreate(savedInstanceState: Bundle?) {
