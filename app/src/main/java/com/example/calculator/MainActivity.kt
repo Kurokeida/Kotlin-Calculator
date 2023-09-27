@@ -41,9 +41,14 @@ class MainActivity : AppCompatActivity() {
             var DifferenceStorage = FirstValue.text.toString().toInt() * SecondValue.text.toString().toInt()
             AnswerDisplay.text = DifferenceStorage.toString()
         }
-        DivideButton.setOnClickListener {
-            var DifferenceStorage = FirstValue.text.toString().toInt() / SecondValue.text.toString().toInt()
-            AnswerDisplay.text = DifferenceStorage.toString()
+DivideButton.setOnClickListener {
+            if(SecondValue.text.toString().toInt() != 0) {
+                var DifferenceStorage = FirstValue.text.toString().toInt() / SecondValue.text.toString().toInt()
+                AnswerDisplay.text = DifferenceStorage.toString()
+            } else {
+                AnswerDisplay.text = "Cant divide by zero"
+            }
+
         }
         SQRTButton.setOnClickListener {
             var DifferenceStorage = Math.sqrt(FirstValue.text.toString().toInt().toDouble())
