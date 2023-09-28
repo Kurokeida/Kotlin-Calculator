@@ -1,5 +1,10 @@
 package com.example.calculator
 
+// Referenc's
+//    https://www.tutorialkart.com/kotlin/kotlin-string-to-int/#gsc.tab=0
+//    https://stackoverflow.com/questions/44267572/edittext-get-text-kotlin
+//    https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.math/sqrt.html
+
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
